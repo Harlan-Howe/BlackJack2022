@@ -43,7 +43,8 @@ public class HumanPlayer
     }
 
     /**
-     * requests the size of the bet for the user to make.
+     * requests the size of the bet for the user to make. User's balance decreases by this amount, as they are "putting
+     * the money into the pot."
      * @return bet - a positive double.
      */
     public double getBet()
