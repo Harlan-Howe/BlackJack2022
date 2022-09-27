@@ -26,6 +26,7 @@ public class HumanPlayer
         this();
         balance = startBalance;
     }
+    // Note: I'm not writing javadoc comments for the simple accessors because... duh.
 
     public String getName()
     {
@@ -73,7 +74,7 @@ public class HumanPlayer
     }
 
     /**
-     * receive the given card and put it in the human player's hand.
+     * receive the given card and put it in this human player's hand.
      * @param c - the card to receive.
      * Precondition: c is not null.
      */
